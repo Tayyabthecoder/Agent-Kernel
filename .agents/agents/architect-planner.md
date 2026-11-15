@@ -1,7 +1,7 @@
 ---
 name: architect-planner
 description: "Analyzes requirements, designs system architectures, authors formal engineering specifications, and decomposes tasks into topological work packages."
-model: pro
+tier: reasoning
 mainAgent: false
 subagent: true
 commandExecutionPolicy: off

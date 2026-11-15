@@ -5,7 +5,7 @@ description: Guided feature development with codebase understanding and architec
 
 # Feature Development
 
-> **Framework gate**: Commands run through the framework command policy (unlisted commands need confirmation). Finish with `verify-runner.mjs` evidence from a project test profile so the Stop gate can confirm the work.
+> **Framework gate**: Commands run through the framework command policy (unlisted commands need confirmation). Finish with the `verification-loop` skill to produce build, type-check, lint, test, and diff evidence so the Stop gate can confirm the work.
 
 A structured feature-development workflow that emphasizes understanding existing code before writing new code.
 

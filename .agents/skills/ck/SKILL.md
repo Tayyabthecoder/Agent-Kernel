@@ -16,6 +16,17 @@ Scripts live at: `~/.claude/skills/ck/commands/` (expand `~` with `$HOME`).
 
 ---
 
+## This Skill vs `continuous-learning-v2`
+
+| Use Case | Use `ck` | Use `continuous-learning-v2` |
+|---|---|---|
+| Save and resume a specific session task | ✅ | ❌ |
+| Extract reusable patterns from agent behavior | ❌ | ✅ |
+| Share learned patterns across team members | ❌ | ✅ (export/import) |
+| Works without hooks setup | ✅ | ❌ |
+
+---
+
 ## Data Layout
 
 ```

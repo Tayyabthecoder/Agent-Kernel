@@ -1,7 +1,7 @@
 ---
 name: security-auditor
 description: "Conducts deep threat modeling, vulnerability assessments, dependency auditing, and credential exposure reviews for security-critical changes."
-model: pro
+tier: reasoning
 mainAgent: false
 subagent: true
 commandExecutionPolicy: off

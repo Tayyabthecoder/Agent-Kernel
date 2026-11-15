@@ -7,7 +7,7 @@ tools:
   - find_by_name
   - search_web
   - read_url_content
-model: pro
+tier: reasoning
 ---
 
 ## Prompt Defense Baseline

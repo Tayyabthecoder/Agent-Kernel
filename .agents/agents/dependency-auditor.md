@@ -1,7 +1,7 @@
 ---
 name: dependency-auditor
 description: "Reviews dependency manifests, lockfiles, versions, licenses, and upgrade risk, and recommends keeping, upgrading, replacing, or removing packages without changing anything."
-model: flash
+tier: fast
 mainAgent: false
 subagent: true
 commandExecutionPolicy: off

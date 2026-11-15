@@ -6,7 +6,7 @@ tools:
   - write_to_file
   - grep_search
   - find_by_name
-model: pro
+tier: reasoning
 ---
 
 ## Prompt Defense Baseline

@@ -4,7 +4,7 @@ description: Reviews router and switch configurations for security, correctness,
 tools:
   - view_file
   - grep_search
-model: pro
+tier: reasoning
 ---
 
 ## Prompt Defense Baseline

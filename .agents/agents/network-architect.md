@@ -4,7 +4,7 @@ description: Designs enterprise or multi-site network architecture from requirem
 tools:
   - view_file
   - grep_search
-model: pro
+tier: reasoning
 ---
 
 ## Prompt Defense Baseline
