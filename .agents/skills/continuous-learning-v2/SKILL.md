@@ -23,6 +23,15 @@ An advanced learning system that turns your Claude Code sessions into reusable k
 - Managing project-scoped vs global instincts
 - Promoting instincts from project to global scope
 
+## This Skill vs `ck`
+
+| Use Case | Use `ck` | Use `continuous-learning-v2` |
+|---|---|---|
+| Save and resume a specific session task | ✅ | ❌ |
+| Extract reusable patterns from agent behavior | ❌ | ✅ |
+| Share learned patterns across team members | ❌ | ✅ (export/import) |
+| Works without hooks setup | ✅ | ❌ |
+
 ## What's New in v2.1
 
 | Feature | v2.0 | v2.1 |
