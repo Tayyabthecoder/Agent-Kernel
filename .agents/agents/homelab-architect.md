@@ -4,7 +4,7 @@ description: Designs home and small-lab network plans from hardware inventory, g
 tools:
   - view_file
   - grep_search
-model: pro
+tier: reasoning
 ---
 
 ## Prompt Defense Baseline

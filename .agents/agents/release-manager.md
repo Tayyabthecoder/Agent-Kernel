@@ -1,7 +1,7 @@
 ---
 name: release-manager
 description: "Assesses release readiness from supplied evidence, checks version and changelog consistency, drafts release notes, and issues a go or no-go decision without tagging, publishing, or deploying."
-model: pro
+tier: reasoning
 mainAgent: false
 subagent: true
 commandExecutionPolicy: off

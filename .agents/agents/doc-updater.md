@@ -8,7 +8,7 @@ tools:
   - run_command
   - grep_search
   - find_by_name
-model: flash
+tier: fast
 ---
 
 ## Prompt Defense Baseline

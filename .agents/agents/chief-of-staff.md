@@ -8,7 +8,7 @@ tools:
   - run_command
   - replace_file_content
   - write_to_file
-model: pro
+tier: reasoning
 ---
 
 ## Prompt Defense Baseline

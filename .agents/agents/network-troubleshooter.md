@@ -5,7 +5,7 @@ tools:
   - view_file
   - run_command
   - grep_search
-model: pro
+tier: reasoning
 ---
 
 ## Prompt Defense Baseline

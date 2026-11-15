@@ -1,7 +1,7 @@
 ---
 name: code-implementer
 description: "Executes surgical, non-destructive source code modifications, features, bug fixes, and migrations based on approved specifications."
-model: flash
+tier: fast
 mainAgent: false
 subagent: true
 commandExecutionPolicy: sandbox

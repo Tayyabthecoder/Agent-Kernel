@@ -1,7 +1,7 @@
 ---
 name: qa-reviewer
 description: "Reviews test, lint, and typecheck evidence supplied by the Primary Agent, audits git diffs, and issues definitive quality gate decisions."
-model: pro
+tier: reasoning
 mainAgent: false
 subagent: true
 commandExecutionPolicy: off

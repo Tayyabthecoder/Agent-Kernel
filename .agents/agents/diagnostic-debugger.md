@@ -1,7 +1,7 @@
 ---
 name: diagnostic-debugger
 description: "Investigates runtime defects, failing tests, and regressions by analyzing execution evidence supplied by the Primary Agent, without running commands or modifying source code."
-model: pro
+tier: reasoning
 mainAgent: false
 subagent: true
 commandExecutionPolicy: off

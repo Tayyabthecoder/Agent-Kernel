@@ -7,7 +7,7 @@ tools:
   - run_command
   - grep_search
   - find_by_name
-model: pro
+tier: reasoning
 ---
 
 ## Prompt Defense Baseline

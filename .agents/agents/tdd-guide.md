@@ -7,7 +7,7 @@ tools:
   - replace_file_content
   - run_command
   - grep_search
-model: pro
+tier: reasoning
 ---
 
 ## Prompt Defense Baseline

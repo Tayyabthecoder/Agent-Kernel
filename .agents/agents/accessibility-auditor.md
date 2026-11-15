@@ -1,7 +1,7 @@
 ---
 name: accessibility-auditor
 description: "Performs specialized accessibility audits, screen-reader compatibility reviews, and keyboard navigation compliance verification."
-model: pro
+tier: reasoning
 mainAgent: false
 subagent: true
 commandExecutionPolicy: off

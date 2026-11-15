@@ -1,7 +1,7 @@
 ---
 name: docs-auditor
 description: "Audits project documentation against the actual code, configuration, and tests, and reports discrepancies, broken references, and unverified claims without editing anything."
-model: flash
+tier: fast
 mainAgent: false
 subagent: true
 commandExecutionPolicy: off
