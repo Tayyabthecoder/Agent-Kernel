@@ -18,9 +18,9 @@ Fill in the right column for your platform and you're done.
 
 | Platform | `tier: fast` → | `tier: reasoning` → |
 |---|---|---|
-| **Anthropic Claude** | `claude-haiku` / `claude-3-5-haiku` | `claude-sonnet` / `claude-opus` |
-| **Google Gemini** | `gemini-2.0-flash` | `gemini-2.5-pro` |
-| **OpenAI / Codex** | `gpt-4o-mini` | `o3` / `gpt-4o` |
+| **Anthropic Claude** | Latest Haiku | Latest Sonnet / Opus |
+| **Google Gemini** | Latest Flash | Latest Pro |
+| **OpenAI / Codex** | Latest mini model | Latest flagship / reasoning model |
 | **Cursor** | Fast model (set in Cursor settings) | Slow / reasoning model (set in Cursor settings) |
 | **Kimi (Moonshot)** | `moonshot-v1-8k` | `moonshot-v1-128k` |
 | **DeepSeek** | `deepseek-chat` | `deepseek-reasoner` |
@@ -35,20 +35,17 @@ Most AI harnesses that support `AGENTS.md` or agent definition files let you ove
 platform level (global config, settings file, or environment variable). You do **not** need to edit
 individual agent files — set your mapping once at the platform level.
 
-### Example: Claude Code (`~/.claude/settings.json`)
-```json
-{
-  "modelAliases": {
-    "fast": "claude-3-5-haiku-20241022",
-    "reasoning": "claude-sonnet-4-5"
-  }
-}
+### Example: Claude Code
+Claude Code subagents accept a family alias in their frontmatter, which always resolves to the latest model in that family:
+```yaml
+model: haiku    # for tier: fast
+model: sonnet   # for tier: reasoning (or opus)
 ```
 
 ### Example: Environment variable (any harness)
 ```bash
-AGENT_TIER_FAST=gpt-4o-mini
-AGENT_TIER_REASONING=o3
+AGENT_TIER_FAST=<your fast model id>
+AGENT_TIER_REASONING=<your reasoning model id>
 ```
 
 ### Example: Cursor
