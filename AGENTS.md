@@ -35,7 +35,9 @@ orchestrates them — they never delegate to each other directly.
 | `release-manager` | reasoning | ❌ | Go/no-go on release readiness |
 | `agent-evaluator` | reasoning | ❌ | Scores agent output quality |
 
-> Map `fast` and `reasoning` to your platform's models in [`.agents/model-tiers.md`](.agents/model-tiers.md).
+> Map `fast` and `reasoning` to your platform's models in [`.agents/model-tiers.md`](.agents/model-tiers.md), and the neutral tool names to real tools in [`.agents/tool-names.md`](.agents/tool-names.md).
+>
+> `.agents/agents/` also holds 67 extended (ECC) specialist agents. Prefer the core agents above; see [`.agents/agents/README.md`](.agents/agents/README.md#4-core-vs-extended-agents) for when to use an extended one.
 
 ## Always-On Rules
 
