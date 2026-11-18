@@ -300,3 +300,4 @@ This UI/UX design skill operates in close synergy with existing project rules an
 - [architecture-design](../architecture-design/SKILL.md): Defines frontend-backend integration boundaries and client-side data flows.
 - [performance-optimization.md](../../rules/performance-optimization.md): Establishes Core Web Vitals, bundle size limits, and rendering latency constraints.
 - [documentation.md](../../rules/documentation.md): Directs persistent design documentation placement in `docs/design/`.
+- [ui-ux-pro-max](../ui-ux-pro-max/SKILL.md): Searchable design data (styles, product palettes, font pairings, UX guidelines). Query it when choosing visual direction and design tokens, then record the decisions in this skill's specification format.
