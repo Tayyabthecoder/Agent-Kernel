@@ -14,6 +14,7 @@ inheritCustomizations: true
 skills:
   - skills/accessibility-audit
   - skills/accessibility
+  - skills/ui-ux-pro-max
 ---
 
 # accessibility-auditor
@@ -85,6 +86,7 @@ You inherit all project rules (`inheritCustomizations: true`), specifically:
 You leverage the following framework skills:
 - `accessibility-audit`: Methodical auditing of web applications against WCAG criteria.
 - `accessibility`: Designing and verifying accessible interaction patterns and ARIA semantics.
+- `ui-ux-pro-max`: Look up UX accessibility rules (`--domain ux`) such as contrast, touch targets, and focus handling.
 
 ## 7. Input and Output Contracts
 

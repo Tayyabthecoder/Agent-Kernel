@@ -10,7 +10,7 @@ Agent-Kernel/
 ├── .agents/
 │   ├── agents/       # 77 Agent role definitions (Core sub-agents + full ECC agent roster)
 │   ├── rules/        # 126 Engineering rules (Core workflow/safety + ECC language standards)
-│   ├── skills/       # 128 Engineering & task skills (Core skills + ECC skills & review packs)
+│   ├── skills/       # 129 Engineering & task skills (Core skills + ECC skills & review packs)
 │   ├── templates/    # 9 Standard software planning & architecture templates
 │   ├── workflows/    # 15 Core engineering playbooks & workflow checklists
 │   ├── model-tiers.md  # Maps fast/reasoning tiers to platform models
@@ -37,10 +37,11 @@ Agent-Kernel/
 - **15 Core Workflow & Domain Standards:** Change safety, security, core workflow, architecture, backend, frontend, database, API design, testing, performance, accessibility, and git workflow.
 - **111 Language & Stack Rules:** Comprehensive guidelines for TypeScript, React, Python, Go, Rust, Java, C#, Dart/Flutter, Swift, Vue, Angular, Nuxt, PHP, and more.
 
-### 3. `skills/` (128 Skills)
+### 3. `skills/` (129 Skills)
 - **Core Engineering Skills:** Full lifecycle skills for backend development, frontend development, database design, load testing, observability, debugging, CI/CD, and auth.
 - **ECC Language Review & Fix Skills:** Specialized skills adapted from ECC (`python-review`, `react-build-fix`, `go-review`, `rust-build-fix`, etc.).
 - **ECC Process & Utility Skills:** Upstream ECC tools (`council`, `santa-method`, `continuous-learning`, `agent-sort`, `context-budget`, `intent-driven-development`, `e2e-testing`, `windows-desktop-e2e`, etc.).
+- **UI/UX Pro Max:** Third-party design intelligence skill (`ui-ux-pro-max`): searchable styles, palettes, font pairings, UX guidelines, and stack-specific UI rules. Requires Python 3. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 ### 4. `templates/` (9 Templates)
 - Architecture Decision Records (ADRs)

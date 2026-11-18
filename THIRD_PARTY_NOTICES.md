@@ -1,6 +1,6 @@
 # Third-Party Notices
 
-This framework includes material adapted from the following third-party project.
+This framework includes material adapted from the following third-party projects.
 
 ## ecc-universal (ECC)
 
@@ -22,6 +22,40 @@ This framework includes material adapted from the following third-party project.
 MIT License
 
 Copyright (c) 2026 Affaan Mustafa
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## UI/UX Pro Max
+
+- **Package**: `ui-ux-pro-max-skill` v2.6.0 (commit `ed766d3`)
+- **Source**: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
+- **License**: MIT
+- **Material used**:
+  - `.agents/skills/ui-ux-pro-max/` (`SKILL.md`, `scripts/`, `data/`, `references/`), copied from upstream `.claude/skills/ui-ux-pro-max/`. Changes: script paths re-pointed from `${CLAUDE_PLUGIN_ROOT}/.claude/skills/ui-ux-pro-max/` to `.agents/skills/ui-ux-pro-max/`, the path note reworded to match, `license`/`metadata.origin` added to the frontmatter, and upstream repository tests (`scripts/tests/`) omitted.
+
+### License text
+
+```
+MIT License
+
+Copyright (c) 2024 Next Level Builder
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

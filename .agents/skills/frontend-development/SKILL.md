@@ -295,6 +295,7 @@ This skill functions in direct collaboration with project rules and skills:
 - [security.md](../../rules/security.md): Governs XSS sanitization, CSRF tokens, and secure token storage.
 - [performance-optimization.md](../../rules/performance-optimization.md): Governs Core Web Vitals, code splitting, and bundle size discipline.
 - [ui-ux-design](../ui-ux-design/SKILL.md): Produces upstream wireframes, design tokens, and layout specifications.
+- [ui-ux-pro-max](../ui-ux-pro-max/SKILL.md): Stack-specific UI guidance (`--stack react`, `nextjs`, `vue`, and others) and UX rule lookups during implementation.
 - [api-design.md](../../rules/api-design.md): Establishes backend endpoint contracts and error envelopes.
 - [testing.md](../../rules/testing.md): Sets test coverage standards and mocking paradigms.
 - [coding-standards.md](../../rules/coding-standards.md): Governs naming, formatting, and TypeScript conventions.
