@@ -20,6 +20,7 @@ Agent-Kernel/
 ├── .github/workflows/lint.yml  # Runs the lint on push and PR
 ├── AGENTS.md     # Entry point auto-discovered by AI assistants
 ├── CLAUDE.md     # Points Claude Code to AGENTS.md
+├── CODE_OF_CONDUCT.md  # Community standards (Contributor Covenant 2.1)
 ├── CONTRIBUTING.md  # How to contribute
 ├── LICENSE
 ├── SETUP_GUIDE.md  # How to install and use Agent Kernel in your project

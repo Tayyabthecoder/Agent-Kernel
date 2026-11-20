@@ -4,6 +4,9 @@ Thank you for your interest in contributing to Agent Kernel. This document
 describes how to propose changes, the standards contributions are expected to
 meet, and the process by which they are reviewed and merged.
 
+All participants are expected to follow the project's
+[Code of Conduct](CODE_OF_CONDUCT.md).
+
 ## Table of Contents
 
 - [Scope of Contributions](#scope-of-contributions)
