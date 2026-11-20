@@ -68,7 +68,9 @@ function* walk(dir) {
   }
 }
 for (const p of walk(root)) {
-  const text = readFileSync(p, "utf8").replace(/```[\s\S]*?```/g, "").replace(/`[^`\n]*`/g, "");
+  const raw = readFileSync(p, "utf8");
+  if (raw.charCodeAt(0) === 0xfeff) err(p, "starts with a UTF-8 BOM (breaks some frontmatter parsers)");
+  const text = raw.replace(/```[\s\S]*?```/g, "").replace(/`[^`\n]*`/g, "");
   for (const [, target] of text.matchAll(/\]\(([^)\s]+)\)/g)) {
     if (/^(https?:|mailto:|#)/.test(target)) continue;
     const file = decodeURIComponent(target.split("#")[0]);

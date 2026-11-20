@@ -1,4 +1,4 @@
-﻿---
+---
 name: requirements-analysis
 description: Analyzes software project ideas, user needs, stakeholder expectations, existing requirements, business rules, functional and non-functional requirements, use cases, acceptance criteria, constraints, ambiguities, and requirement gaps. Use when discovering, clarifying, validating, documenting, or revising software requirements before implementation or when evaluating substantial feature changes.
 ---

@@ -1,4 +1,4 @@
-﻿---
+---
 name: caching-strategy
 description: Evaluates, designs, implements, and verifies application caching strategies, including cache selection, key design, expiration, invalidation, HTTP caching, in-memory and distributed caches, database-backed workloads, and cache observability. Use when reducing repeated computation or data retrieval, improving response times, lowering database load, or diagnosing caching-related correctness and consistency issues.
 ---

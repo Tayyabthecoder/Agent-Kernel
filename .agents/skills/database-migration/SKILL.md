@@ -1,4 +1,4 @@
-﻿---
+---
 name: database-migration
 description: Plans, creates, validates, reviews, and troubleshoots database schema and data migrations while preserving data integrity and application compatibility. Use when adding or modifying tables, columns, indexes, constraints, relationships, data transformations, database versions, or migration scripts, and when planning deployment, rollback, recovery, or production-safe schema changes.
 ---

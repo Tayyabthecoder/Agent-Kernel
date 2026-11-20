@@ -1,4 +1,4 @@
-﻿---
+---
 name: ui-ux-design
 description: Designs and evaluates user experiences, information architecture, user flows, wireframes, page layouts, visual hierarchy, design systems, component patterns, responsive behavior, and interaction specifications. Use when planning a new application interface, designing a feature or user journey, creating a UI/UX specification, reviewing an existing interface, or planning a redesign.
 ---

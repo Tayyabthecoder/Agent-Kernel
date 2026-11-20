@@ -1,4 +1,4 @@
-﻿---
+---
 name: architecture-design
 description: Designs, evaluates, documents, and reviews software architectures, module boundaries, system components, dependency relationships, data flows, integration patterns, technology choices, and architectural decisions. Use when starting a new software system, planning major features, evaluating architectural alternatives, or changing the structure of an existing application. For new systems or structural changes; to assess an existing architecture without redesigning it, use architecture-review.
 ---

@@ -1,4 +1,4 @@
-﻿---
+---
 name: ci-cd
 description: Designs, configures, reviews, and troubleshoots continuous integration and continuous delivery or deployment pipelines. Covers automated builds, tests, quality and security checks, artifact management, workflow triggers, environment separation, secrets, deployment approvals, rollback planning, and pipeline reliability. Use when automating software validation, release preparation, or controlled application deployments.
 ---

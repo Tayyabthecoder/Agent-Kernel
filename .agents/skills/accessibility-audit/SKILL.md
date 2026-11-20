@@ -1,4 +1,4 @@
-﻿---
+---
 name: accessibility-audit
 description: Audits web applications and user interfaces for accessibility barriers involving semantic HTML, keyboard navigation, screen readers, focus management, forms, color contrast, images, responsive layouts, and WCAG requirements. Use when evaluating accessibility, investigating barriers for users with disabilities, reviewing interactive components, assessing accessibility test results, or verifying accessibility improvements. To build or fix accessible components, use accessibility instead.
 ---

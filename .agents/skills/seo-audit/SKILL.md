@@ -1,4 +1,4 @@
-﻿---
+---
 name: seo-audit
 description: Audits websites for technical SEO, crawlability, indexability, page metadata, canonical URLs, robots directives, XML sitemaps, structured data, internal linking, JavaScript rendering, and relevant performance issues. Use when diagnosing search visibility problems, reviewing SEO implementation, inspecting public page discoverability, auditing metadata, investigating indexing barriers, or verifying SEO-related changes.
 ---

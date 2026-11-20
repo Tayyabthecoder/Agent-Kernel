@@ -1,4 +1,4 @@
-﻿---
+---
 name: feature-implementation
 description: Implements complete software features within an existing codebase by analyzing requirements, inspecting project context, planning affected layers, reusing existing components, integrating frontend and backend behavior, handling data and permissions, adding appropriate tests, and verifying the final result. Use when building new features, extending existing functionality, implementing end-to-end workflows, or completing incomplete feature implementations.
 ---

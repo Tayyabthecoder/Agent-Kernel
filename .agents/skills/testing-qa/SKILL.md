@@ -1,4 +1,4 @@
-﻿---
+---
 name: testing-qa
 description: Plans, implements, executes, and evaluates software tests, including unit, integration, end-to-end, regression, API, accessibility, and relevant security tests. Use when validating new features, investigating defects, testing bug fixes, improving test coverage, verifying refactors, diagnosing failing tests, or assessing software quality.
 ---

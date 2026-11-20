@@ -11,3 +11,10 @@ jobs:
         with:
           node-version: 20
       - run: node scripts/lint.mjs
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate ui-ux-pro-max data
+        run: python .agents/skills/ui-ux-pro-max/scripts/validate_data.py
+      - name: Smoke-test ui-ux-pro-max search
+        run: python .agents/skills/ui-ux-pro-max/scripts/search.py "saas dashboard" --domain style

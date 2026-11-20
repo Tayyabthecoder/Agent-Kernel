@@ -1,4 +1,4 @@
-﻿---
+---
 name: backend-development
 description: Implements, modifies, debugs, and refactors server-side applications, routes, controllers, business logic, middleware, validation, authentication integration, database access, API handlers, background jobs, external services, and backend error handling. Use when translating approved software requirements and architecture into functional backend code or maintaining existing server-side functionality.
 ---

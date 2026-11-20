@@ -1,4 +1,4 @@
-﻿---
+---
 name: backup-recovery
 description: Plans, manages, validates, restores, and troubleshoots backups for databases, application files, configuration, and infrastructure. Use when designing backup schedules, defining recovery objectives, verifying backup integrity, restoring deleted or corrupted data, preparing disaster recovery procedures, or testing recovery readiness.
 ---

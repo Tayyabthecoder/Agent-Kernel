@@ -1,4 +1,4 @@
-﻿---
+---
 name: cloud-infrastructure
 description: Assesses, designs, configures, validates, and maintains cloud infrastructure for software applications. Covers compute, networking, identity and access management, storage, databases, infrastructure as code, environment isolation, secrets, cost controls, reliability, monitoring, backup, and disaster recovery. Use when planning cloud resources, modifying infrastructure configuration, securing deployment environments, or evaluating cloud architecture and operational risks.
 ---

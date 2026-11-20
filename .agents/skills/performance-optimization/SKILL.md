@@ -1,4 +1,4 @@
-﻿---
+---
 name: performance-optimization
 description: Diagnoses and improves application performance across frontend rendering, backend execution, algorithms, databases, APIs, networking, caching, concurrency, and resource usage. Uses profiling, baselines, workload analysis, focused optimization, regression testing, and before-and-after measurements. Use when an application is slow, resource-intensive, inefficient under load, or requires evidence-based performance improvements. Use once a bottleneck is known and code must change; to measure and locate bottlenecks first, use performance-profiling.
 ---

@@ -1,4 +1,4 @@
-﻿---
+---
 name: observability
 description: Designs, implements, and evaluates application observability using structured logs, metrics, distributed traces, health checks, dashboards, alerts, and service-level objectives. Use when diagnosing production behavior, investigating errors and latency, instrumenting application components, correlating cross-service requests, or improving operational visibility and incident diagnosis. Covers system-wide strategy such as SLOs, cross-service tracing, and dashboards; for adding logs, error tracking, or health endpoints inside one application, use logging-monitoring instead.
 ---

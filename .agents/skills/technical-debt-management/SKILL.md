@@ -1,4 +1,4 @@
-﻿---
+---
 name: technical-debt-management
 description: Identifies, documents, assesses, prioritizes, and tracks technical debt across code, architecture, databases, APIs, tests, dependencies, configuration, and infrastructure. Use when auditing maintainability risks, evaluating engineering trade-offs, building a technical debt register, planning incremental remediation, or assessing the cost and risk of leaving known technical weaknesses unresolved.
 ---

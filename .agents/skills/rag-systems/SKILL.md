@@ -1,4 +1,4 @@
-﻿---
+---
 name: rag-systems
 description: Designs, implements, evaluates, and secures retrieval-augmented generation systems, including document ingestion, parsing, chunking, embeddings, vector and hybrid search, reranking, grounded generation, citations, access control, retrieval evaluation, and knowledge freshness. Use when building or improving LLM applications that answer questions using external documents, private knowledge bases, or connected data sources.
 ---

@@ -1,4 +1,4 @@
-﻿---
+---
 name: database-design
 description: Analyzes data requirements and designs database models, entities, relationships, schemas, constraints, normalization strategies, indexes, data ownership, persistence boundaries, and migration considerations. Use when designing a new database, planning a new feature involving persistent data, reviewing a schema, or evaluating changes to an existing data model.
 ---
