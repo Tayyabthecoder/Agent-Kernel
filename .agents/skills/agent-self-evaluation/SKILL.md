@@ -69,7 +69,7 @@ Do NOT average the scores in your head first and then work backwards. Score each
 
 ### Step 3: Produce the Evaluation Report
 
-Use the template from `templates/evaluation-report.md`. The report must include:
+Use this structure for the report. It must include:
 
 ```
 - One-line summary

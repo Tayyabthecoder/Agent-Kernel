@@ -184,15 +184,15 @@ Older codebases on React 18 still need `forwardRef`.
 ### Next.js (App Router)
 
 - Server Actions, Route Handlers, Middleware, Parallel/Intercepted Routes, streaming Metadata
-- Treated as a separate framework concern — when adding deep Next-specific patterns, propose a dedicated `rules/nextjs/` track
+- Treated as a separate framework concern — when adding deep Next-specific patterns, propose a dedicated set of `nextjs-*` rules
 - For now follow Next.js official docs for App Router specifics
 
 ### React Native
 
 - Platform-specific imports (`Platform.OS`, `.ios.tsx` / `.android.tsx`), `StyleSheet`, navigation libraries (React Navigation, Expo Router)
-- Treated as a separate track — `rules/react-native/` is not yet present
+- Treated as a separate track — see the `rules/react-native-*.md` rule files
 - React core hooks/patterns from this file still apply
 
 ## Skill Reference
 
-For React-specific deep dives see `skills/react-patterns/SKILL.md`. For cross-framework frontend concerns see `skills/frontend-patterns/SKILL.md`. For accessibility see `skills/accessibility/SKILL.md`.
+For React-specific review see `skills/react-review/SKILL.md`. For cross-framework frontend concerns see `skills/frontend-development/SKILL.md`. For accessibility see `skills/accessibility/SKILL.md`.
