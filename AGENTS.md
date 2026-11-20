@@ -4,17 +4,30 @@ Universal building blocks for reliable, production-grade AI agent systems.
 
 ## Quick Start
 
-Copy the `.agents/` folder into your project root. AI assistants that support
-`AGENTS.md` or `CLAUDE.md` will automatically discover the agents, rules, and skills.
+Copy **three things** into your project root: the `.agents/` folder, `AGENTS.md`,
+and `CLAUDE.md`. AI assistants find the framework through `AGENTS.md` (or
+`CLAUDE.md` for Claude Code), so copying `.agents/` alone is not enough.
 
 ```
 your-project/
+├── AGENTS.md      ← entry point read by most AI assistants
+├── CLAUDE.md      ← entry point for Claude Code (imports AGENTS.md + always-on rules)
 └── .agents/
     ├── agents/    ← agent role definitions
     ├── rules/     ← always-on engineering rules
     ├── skills/    ← task skills loaded on demand
     ├── workflows/ ← step-by-step playbooks
     └── templates/ ← planning document templates
+```
+
+**Already have an `AGENTS.md` or `CLAUDE.md`?** Don't overwrite it. Append this
+file's contents to your `AGENTS.md`, and add these lines to your `CLAUDE.md`:
+
+```
+@AGENTS.md
+@.agents/rules/change-safety.md
+@.agents/rules/core-workflow.md
+@.agents/rules/security.md
 ```
 
 ## Core Framework Agents
@@ -41,11 +54,16 @@ orchestrates them — they never delegate to each other directly.
 
 ## Always-On Rules
 
-These rules are automatically applied to every task:
+Apply these rules to every task. Read them before starting work:
 
-- `change-safety.md` — minimize change scope, protect user work
-- `core-workflow.md` — inspect → plan → implement → verify
-- `security.md` — secure-by-default engineering standards
+- [`change-safety.md`](.agents/rules/change-safety.md) — minimize change scope, protect user work
+- [`core-workflow.md`](.agents/rules/core-workflow.md) — inspect → plan → implement → verify
+- [`security.md`](.agents/rules/security.md) — secure-by-default engineering standards
+
+Claude Code loads them automatically through the imports in `CLAUDE.md`. The rules'
+`trigger: always_on` frontmatter is honored only by platforms that read rules from
+`.agents/rules/`; on any other platform, read the three files above at the start of
+each task.
 
 ## Full Documentation
 
