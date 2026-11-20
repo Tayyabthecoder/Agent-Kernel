@@ -22,6 +22,7 @@ Agent-Kernel/
 ├── CLAUDE.md     # Points Claude Code to AGENTS.md
 ├── CONTRIBUTING.md  # How to contribute
 ├── LICENSE
+├── SETUP_GUIDE.md  # How to install and use Agent Kernel in your project
 ├── THIRD_PARTY_NOTICES.md  # MIT License notice and third-party attribution
 └── README.md     # Documentation and usage guide
 ```
