@@ -1,4 +1,4 @@
-﻿---
+---
 name: code-review
 description: Reviews code changes, pull requests, and existing implementations for correctness defects, regressions, security weaknesses, data-integrity problems, API incompatibilities, performance issues, and maintainability risks. Use when inspecting staged or unstaged diffs, reviewing completed features, evaluating refactors, or assessing code quality before merging or releasing changes.
 ---

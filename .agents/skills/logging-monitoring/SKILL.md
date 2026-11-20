@@ -1,4 +1,4 @@
-﻿---
+---
 name: logging-monitoring
 description: Designs and maintains application logging, error tracking, health checks, metrics, tracing, alerts, and operational observability. Use when instrumenting application behavior, diagnosing production failures, improving error reporting, monitoring APIs and background jobs, implementing health endpoints, or investigating performance, availability, and reliability issues. Focuses on instrumenting a single application; for cross-service tracing, SLOs, and observability strategy, use observability instead.
 ---

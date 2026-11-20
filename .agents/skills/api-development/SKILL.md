@@ -1,4 +1,4 @@
-﻿---
+---
 name: api-development
 description: Implements, modifies, debugs, tests, and maintains API endpoints, request and response handling, validation, authentication integration, pagination, error handling, webhooks, and external API integrations according to established API contracts and backend conventions. Use when building or maintaining working API functionality.
 ---

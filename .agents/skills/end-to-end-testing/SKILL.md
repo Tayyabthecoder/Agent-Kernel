@@ -1,4 +1,4 @@
-﻿---
+---
 name: end-to-end-testing
 description: Plans, executes, and verifies end-to-end tests for complete application workflows across user interfaces, APIs, backend logic, authentication, authorization, databases, and external integrations. Use when validating critical user journeys, checking frontend-to-backend integration, testing browser workflows, preventing regressions, or verifying that a complete feature works from the user's perspective.
 ---

@@ -1,4 +1,4 @@
-﻿---
+---
 name: srs-writing
 description: Creates, structures, reviews, and updates Software Requirements Specifications for software systems, applications, modules, and major features. Use when detailed functional requirements, non-functional requirements, system interfaces, external constraints, data requirements, system behavior, verifiable requirement statements, and requirements traceability need formal documentation.
 ---

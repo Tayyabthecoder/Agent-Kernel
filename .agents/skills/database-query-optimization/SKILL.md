@@ -1,4 +1,4 @@
-﻿---
+---
 name: database-query-optimization
 description: Analyzes and optimizes database query performance by examining SQL, execution plans, indexes, joins, filtering, sorting, pagination, ORM behavior, data access patterns, and query measurements. Use when diagnosing slow database operations, improving reporting queries, reducing excessive database calls, or verifying database performance improvements while preserving correctness and data integrity.
 ---

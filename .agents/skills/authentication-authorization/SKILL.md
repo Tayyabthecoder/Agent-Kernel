@@ -1,4 +1,4 @@
-﻿---
+---
 name: authentication-authorization
 description: Designs, implements, reviews, and tests authentication and authorization systems, including login, logout, sessions, tokens, role-based and resource-based permissions, account recovery, multi-factor authentication, OAuth and OpenID Connect integrations, API access control, and multi-tenant data isolation. Use when implementing identity management, protecting routes and resources, managing permissions, securing user sessions, or diagnosing authentication and authorization issues.
 ---

@@ -1,4 +1,4 @@
-﻿---
+---
 name: architecture-review
 description: Reviews existing software architecture for module boundaries, dependency direction, coupling, cohesion, scalability, reliability, security boundaries, data flow, integration contracts, maintainability, and technical debt. Use when assessing an existing system, investigating architectural risks, reviewing major structural changes, evaluating architectural consistency, or identifying justified opportunities for improvement before redesign or refactoring. Assesses what already exists; to design a new system or a structural change, use architecture-design.
 ---

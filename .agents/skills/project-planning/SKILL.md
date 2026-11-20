@@ -1,4 +1,4 @@
-﻿---
+---
 name: project-planning
 description: Creates structured software project plans, implementation roadmaps, milestones, task breakdowns, dependency maps, risk assessments, and delivery strategies. Use when starting a new software project, planning a major feature, organizing approved requirements into implementation phases, or revising an existing project roadmap.
 ---

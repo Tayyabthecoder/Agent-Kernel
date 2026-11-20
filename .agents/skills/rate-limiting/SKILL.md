@@ -1,4 +1,4 @@
-﻿---
+---
 name: rate-limiting
 description: Designs, implements, and verifies rate-limiting controls for APIs and applications, including per-user, per-IP, per-tenant, and per-endpoint limits, authentication abuse prevention, algorithm selection, distributed enforcement, response headers, monitoring, and testing. Use when protecting endpoints against brute-force attempts, excessive requests, automated abuse, resource exhaustion, or unfair consumption while maintaining legitimate access.
 ---

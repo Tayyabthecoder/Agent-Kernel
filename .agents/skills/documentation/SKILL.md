@@ -1,4 +1,4 @@
-﻿---
+---
 name: documentation
 description: Creates, organizes, reviews, and maintains software project and technical documentation, including README files, development setup guides, architecture overviews, design decisions, configuration references, contribution guidelines, troubleshooting resources, and engineering workflows. Use when documenting a codebase, improving developer onboarding, recording technical decisions, updating project instructions, or keeping documentation consistent with actual implementation. Audience is developers and maintainers; for end-user guides use user-documentation-writing, and for API references use api-documentation.
 ---

@@ -1,4 +1,4 @@
-﻿---
+---
 name: frontend-development
 description: Implements, modifies, debugs, and refactors frontend applications, pages, components, layouts, forms, navigation, styling, client-side state, API integrations, and responsive interactions. Use when translating approved UI/UX designs and software requirements into functional frontend code or when maintaining existing frontend functionality.
 ---

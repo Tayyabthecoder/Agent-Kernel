@@ -1,4 +1,4 @@
-﻿---
+---
 name: project-context-analysis
 description: Analyzes an existing software project to understand its purpose, technology stack, structure, modules, dependencies, business logic, data flows, conventions, and constraints before making changes. Use when entering an unfamiliar codebase, preparing to implement a feature, locating existing functionality, investigating system behavior, assessing cross-module impacts, or building a context-aware implementation plan.
 ---

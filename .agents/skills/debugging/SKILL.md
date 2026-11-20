@@ -1,4 +1,4 @@
-﻿---
+---
 name: debugging
 description: Investigates software bugs, runtime errors, failing tests, unexpected behavior, configuration problems, API failures, database issues, and intermittent defects. Use when reproducing a problem, analyzing logs or stack traces, finding root causes, implementing targeted fixes, or verifying that a defect has been resolved.
 ---

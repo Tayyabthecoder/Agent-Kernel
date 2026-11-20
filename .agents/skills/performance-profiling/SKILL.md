@@ -1,4 +1,4 @@
-﻿---
+---
 name: performance-profiling
 description: Measures application performance and identifies evidence-based bottlenecks across CPU, memory, database queries, APIs, network activity, rendering, concurrency, and I/O. Use when investigating slow responses, high resource consumption, memory leaks, throughput limitations, frontend performance problems, or performance regressions, and when establishing or validating performance baselines. Measurement only; to implement fixes for identified bottlenecks, use performance-optimization.
 ---

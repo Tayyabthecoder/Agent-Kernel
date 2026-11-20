@@ -1,4 +1,4 @@
-﻿---
+---
 name: refactoring
 description: Improves the internal structure, readability, maintainability, modularity, and organization of existing code while preserving intended external behavior. Use when simplifying complex functions, reducing duplication, extracting responsibilities, improving naming, restructuring modules, or safely cleaning up technical debt without changing requirements or adding unrelated features.
 ---

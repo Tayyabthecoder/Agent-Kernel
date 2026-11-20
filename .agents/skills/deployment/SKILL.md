@@ -1,4 +1,4 @@
-﻿---
+---
 name: deployment
 description: Plans, prepares, executes, verifies, and troubleshoots software deployments across development, staging, and production environments. Covers hosting configuration, build artifacts, environment variables, secrets, database migrations, deployment strategies, health checks, rollback and recovery, and post-deployment validation. Use when publishing an application, updating an existing deployment, moving between hosting environments, or diagnosing deployment failures. Executes the deployment; for a pre-release go or no-go assessment, use deployment-readiness first.
 ---

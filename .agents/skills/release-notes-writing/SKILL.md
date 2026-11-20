@@ -1,4 +1,4 @@
-﻿---
+---
 name: release-notes-writing
 description: Writes accurate, structured release notes and changelog entries from verified code changes, Git history, version information, implementation summaries, and release requirements. Use when documenting a software release, preparing changelog entries, summarizing shipped features and bug fixes, explaining breaking changes, or communicating upgrade requirements to technical and non-technical audiences.
 ---

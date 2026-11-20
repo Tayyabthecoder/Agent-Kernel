@@ -1,4 +1,4 @@
-﻿---
+---
 name: cross-cutting-concerns
 description: Identifies and manages shared application concerns that span multiple modules or layers, including validation, error handling, authorization, logging, transactions, configuration, audit trails, request context, and resilience policies. Use when implementing consistent application-wide behavior, evaluating shared middleware or services, reducing duplicated cross-module logic, or reviewing how common concerns are enforced across workflows.
 ---

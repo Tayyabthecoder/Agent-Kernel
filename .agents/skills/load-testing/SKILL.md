@@ -1,4 +1,4 @@
-﻿---
+---
 name: load-testing
 description: Plans, executes, analyzes, and reports controlled load tests for software applications and APIs. Covers workload modeling, virtual users, request rates, ramp-up, latency percentiles, throughput, error rates, resource utilization, database bottlenecks, capacity limits, stress and endurance testing, and performance regression detection. Use when evaluating application capacity, validating performance requirements, investigating behavior under concurrent traffic, or establishing evidence-based load-test baselines.
 ---

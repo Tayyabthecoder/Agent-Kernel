@@ -1,4 +1,4 @@
-﻿---
+---
 name: environment-configuration
 description: Designs, manages, validates, and troubleshoots application configuration across development, testing, staging, production, containers, and CI/CD environments. Use when working with environment variables, .env files, configuration files, runtime settings, database connection settings, secrets management, configuration validation, or environment-specific failures.
 ---

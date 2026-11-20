@@ -1,4 +1,4 @@
-﻿---
+---
 name: input-validation
 description: Designs, implements, and tests input validation across frontend forms, API requests, backend services, file uploads, and data-persistence workflows. Covers type and format checks, required fields, normalization, business-rule validation, schema validation, safe error responses, and data-integrity constraints. Use when accepting, transforming, importing, or persisting untrusted input.
 ---

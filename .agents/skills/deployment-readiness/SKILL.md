@@ -1,4 +1,4 @@
-﻿---
+---
 name: deployment-readiness
 description: Assesses application and release readiness before deployment by evaluating builds, tests, dependencies, configuration, security, database migrations, backups, compatibility, monitoring, health checks, and rollback plans. Use when preparing releases, reviewing production deployment prerequisites, performing go-live checks, or identifying release blockers and operational risks. Assessment only; to execute or troubleshoot the deployment itself, use deployment.
 ---

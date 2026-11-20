@@ -1,4 +1,4 @@
-﻿---
+---
 name: prd-writing
 description: Creates, structures, reviews, and updates Product Requirements Documents for new software products, existing applications, and major features. Use when product goals, target users, scope, user journeys, business value, product requirements, success metrics, and product acceptance criteria need to be documented.
 ---

@@ -1,4 +1,4 @@
-﻿---
+---
 name: api-documentation
 description: Creates, audits, validates, and maintains accurate API documentation based on actual implementations and approved contracts. Use when documenting endpoints, request and response schemas, authentication, error codes, pagination, webhooks, API versioning, integration examples, or OpenAPI specifications, and when detecting mismatches between documentation and API behavior.
 ---

@@ -1,4 +1,4 @@
-﻿---
+---
 name: accessibility
 description: Designs and implements accessible user interfaces, components, forms, navigation, dialogs, and interaction patterns. Covers semantic HTML, keyboard operation, focus management, screen-reader support, contrast, accessible feedback, responsive behavior, motion preferences, and inclusive interaction design. Use when building, modifying, or fixing application UI and interactive components. For auditing an existing UI against WCAG without building changes, use accessibility-audit instead.
 ---

@@ -1,4 +1,4 @@
-﻿---
+---
 name: dependency-management
 description: Manages project dependencies across package managers, runtimes, and build systems. Use when installing or removing packages, updating versions, resolving dependency conflicts, maintaining manifests and lockfiles, investigating vulnerable or deprecated packages, troubleshooting installation failures, or evaluating dependency compatibility and supply-chain risks.
 ---

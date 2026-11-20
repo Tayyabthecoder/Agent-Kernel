@@ -1,4 +1,4 @@
-﻿---
+---
 name: security-review
 description: Reviews application code, architecture, APIs, authentication, authorization, database access, dependencies, configuration, file handling, and data flows for potential security vulnerabilities. Use when conducting security reviews, investigating suspected vulnerabilities, assessing security-sensitive changes, evaluating dependency risks, prioritizing findings, or preparing remediation recommendations. Reviews implemented code and configuration for vulnerabilities; for design-time threat analysis of a new feature or architecture, use threat-modeling.
 ---

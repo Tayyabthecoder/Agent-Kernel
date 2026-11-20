@@ -1,4 +1,4 @@
-﻿---
+---
 name: threat-modeling
 description: Identifies and assesses software security threats by examining assets, trust boundaries, data flows, entry points, attacker capabilities, attack paths, and potential business impacts. Uses structured threat modeling methods to prioritize risks, recommend mitigations, define security requirements, and establish verification criteria. Use when designing new features or architectures, integrating external services, changing authentication or data access, or evaluating application security risks. Design-time analysis; to review implemented code for vulnerabilities, use security-review.
 ---

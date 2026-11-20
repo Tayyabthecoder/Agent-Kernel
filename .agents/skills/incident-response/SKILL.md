@@ -1,4 +1,4 @@
-﻿---
+---
 name: incident-response
 description: Assesses, coordinates, documents, and supports recovery from application, database, infrastructure, availability, data-integrity, and security incidents. Use when services are unavailable or degraded, errors spike, deployments fail, data appears corrupted or missing, external dependencies cause outages, or suspicious activity requires structured incident handling.
 ---
