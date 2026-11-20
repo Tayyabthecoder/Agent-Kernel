@@ -20,6 +20,7 @@ Agent-Kernel/
 ├── .github/workflows/lint.yml  # Runs the lint on push and PR
 ├── AGENTS.md     # Entry point auto-discovered by AI assistants
 ├── CLAUDE.md     # Points Claude Code to AGENTS.md
+├── CONTRIBUTING.md  # How to contribute
 ├── LICENSE
 ├── THIRD_PARTY_NOTICES.md  # MIT License notice and third-party attribution
 └── README.md     # Documentation and usage guide
