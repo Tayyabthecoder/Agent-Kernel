@@ -82,6 +82,24 @@ for (const p of walk(root)) {
   }
 }
 
+// 5. Named references in inline code (`skills/x`, `agents/x.md`, `rules/x.md`, ...)
+// Code blocks are skipped: they hold example output and upstream (ECC) paths.
+const KINDS = {
+  skills: (n) => existsSync(join(A, "skills", n.replace(/\/.*$/, ""))),
+  agents: (n) => existsSync(join(A, "agents", n)),
+  rules: (n) => existsSync(join(A, "rules", n)),
+  workflows: (n) => existsSync(join(A, "workflows", n)),
+  templates: (n) => existsSync(join(A, "templates", n)),
+};
+for (const p of walk(A)) {
+  const text = readFileSync(p, "utf8").replace(/```[\s\S]*?```/g, "");
+  for (const [, span] of text.matchAll(/`([^`\n]+)`/g)) {
+    if (/[~<*]|\.claude|^https?:/.test(span)) continue;
+    const m = span.match(/^(?:\.agents\/)?(skills|agents|rules|workflows|templates)\/([A-Za-z0-9_.\/-]+?)\/?$/);
+    if (m && !KINDS[m[1]](m[2])) err(p, `reference to missing ${m[1]}: \`${span}\``);
+  }
+}
+
 if (errors.length) {
   console.error(errors.join("\n"));
   console.error(`\n${errors.length} problem(s) found.`);

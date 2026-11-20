@@ -72,4 +72,4 @@ const styles = StyleSheet.create({ card: { padding: 16, backgroundColor: '#fff' 
 
 ## TypeScript
 
-All TypeScript rules from `rules/typescript/` apply (explicit types on public APIs, avoid `any`, Zod for validation, immutable updates). This file only adds RN-specific guidance on top.
+All TypeScript rules in `rules/typescript-*.md` apply (explicit types on public APIs, avoid `any`, Zod for validation, immutable updates). This file only adds RN-specific guidance on top.

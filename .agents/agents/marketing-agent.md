@@ -157,7 +157,7 @@ Delete and rewrite any of these:
 
 ## Reference
 
-Use `skills/marketing-campaign` for the full campaign planning and orchestration workflow.
+No dedicated campaign skill is bundled; follow the workflow in this agent definition for campaign planning and orchestration.
 Delegate voice capture to `brand-voice`.
 Delegate platform-native content production to `content-engine`.
 Delegate multi-platform distribution to `crosspost`.
