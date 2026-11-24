@@ -267,6 +267,9 @@ added.
 | Agents request tools your platform does not have | Map neutral tool names using `.agents/tool-names.md`. |
 | `ui-ux-pro-max` scripts fail | Install Python 3 and ensure `python` is on your `PATH`. |
 
+For ready-to-use prompts covering every stage of development, see the
+[Prompt Guide](PROMPT_GUIDE.md).
+
 For other problems, open an issue on the
 [Agent Kernel repository](https://github.com/Tayyabthecoder/Agent-Kernel/issues).
 To contribute improvements, see [CONTRIBUTING.md](CONTRIBUTING.md).
