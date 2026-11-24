@@ -172,6 +172,7 @@ Agent-Kernel/
 ├── CODE_OF_CONDUCT.md       # Community standards
 ├── CONTRIBUTING.md          # Contribution guidelines
 ├── LICENSE                  # MIT License
+├── PROMPT_GUIDE.md          # Ready-to-use prompts
 ├── README.md                # Project overview
 ├── SETUP_GUIDE.md           # Installation and usage guide
 └── THIRD_PARTY_NOTICES.md   # Third-party attributions
@@ -202,6 +203,7 @@ Gemini CLI, and GitHub Copilot. Claude Code is supported out of the box through
 | Document | Description |
 |---|---|
 | [Setup Guide](SETUP_GUIDE.md) | Installation, configuration, and usage |
+| [Prompt Guide](PROMPT_GUIDE.md) | Ready-to-use prompts for every stage of development |
 | [AGENTS.md](AGENTS.md) | Framework entry point and core agent roster |
 | [Agents Guide](.agents/agents/README.md) | Agent architecture, permissions, and core vs. extended agents |
 | [Model Tiers](.agents/model-tiers.md) | Mapping tiers to platform models |
